@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16D03F4321022F3E00F9019C /* FieldSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D03F4221022F3E00F9019C /* FieldSurveyViewController.swift */; };
+		16D03F4521022F6200F9019C /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D03F4421022F6200F9019C /* FieldSurveyDetailViewController.swift */; };
+		16D03F4721023CE800F9019C /* FieldSurveyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D03F4621023CE800F9019C /* FieldSurveyTableViewCell.swift */; };
 		16FBBFB62101673B008BB0F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FBBFB52101673B008BB0F1 /* AppDelegate.swift */; };
 		16FBBFBB2101673B008BB0F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FBBFB92101673B008BB0F1 /* Main.storyboard */; };
 		16FBBFBD2101673C008BB0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FBBFBC2101673C008BB0F1 /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16D03F4221022F3E00F9019C /* FieldSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyViewController.swift; sourceTree = "<group>"; };
+		16D03F4421022F6200F9019C /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
+		16D03F4621023CE800F9019C /* FieldSurveyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyTableViewCell.swift; sourceTree = "<group>"; };
 		16FBBFB22101673B008BB0F1 /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FBBFB52101673B008BB0F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16FBBFBA2101673B008BB0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 			children = (
 				16FBBFE4210168C2008BB0F1 /* Model */,
 				16FBBFB52101673B008BB0F1 /* AppDelegate.swift */,
+				16D03F4421022F6200F9019C /* FieldSurveyDetailViewController.swift */,
+				16D03F4621023CE800F9019C /* FieldSurveyTableViewCell.swift */,
+				16D03F4221022F3E00F9019C /* FieldSurveyViewController.swift */,
 				16FBBFB92101673B008BB0F1 /* Main.storyboard */,
 				16FBBFBC2101673C008BB0F1 /* Assets.xcassets */,
 				16FBBFBE2101673C008BB0F1 /* LaunchScreen.storyboard */,
@@ -280,7 +289,10 @@
 				16FBBFF2210176DE008BB0F1 /* FieldSurveyJsonLoader.swift in Sources */,
 				16FBBFEC21016B42008BB0F1 /* Classification.swift in Sources */,
 				16FBBFB62101673B008BB0F1 /* AppDelegate.swift in Sources */,
+				16D03F4521022F6200F9019C /* FieldSurveyDetailViewController.swift in Sources */,
+				16D03F4321022F3E00F9019C /* FieldSurveyViewController.swift in Sources */,
 				16FBBFEE21016CC0008BB0F1 /* FieldSurvey.swift in Sources */,
+				16D03F4721023CE800F9019C /* FieldSurveyTableViewCell.swift in Sources */,
 				16FBBFF021016FE1008BB0F1 /* FieldSurveyJsonParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
